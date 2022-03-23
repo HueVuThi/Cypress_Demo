@@ -19,3 +19,13 @@ npm install --save-dev cypress-xpath
 ```
 
 ## Run Test
+Run via command line
+```
+npx cypress run --browser chrome --reporter cypress-mochawesome-reporter
+```
+or
+```
+npm run cy:test
+```
+## Report
+Please access [this link](/cypress/report/index.html) to view report
