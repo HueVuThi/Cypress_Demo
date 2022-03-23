@@ -1,0 +1,14 @@
+{
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "defaultCommandTimeout": 60000,
+  "pageLoadTimeout": 120000,
+  "chromeWebSecurity": false,
+  "projectId": "wcn44e",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "custom-title"
+  }
+}
