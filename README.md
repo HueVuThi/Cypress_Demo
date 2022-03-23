@@ -17,6 +17,16 @@ npm install --save-dev cypress
 ```
 npm install --save-dev cypress-xpath
 ```
+## Scenario
+```
+- Change language to EN
+- Search by using the Keyword “TV”
+- Filter TV with Screen Size Group (inches) “44 - 55 inches” screen size and add one item
+to the cart from the return list
+- Filter TV with “56 - 65 inches” screen size and add one item to the cart from the return list
+- Check the cart on https://www.powerbuy.co.th/en/cart and validate results of items in the
+cart that match with the items that were added in the previous steps or not.
+```
 
 ## Run Test
 Run via command line
